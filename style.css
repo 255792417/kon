@@ -1,0 +1,284 @@
+header{
+    background-color:rgba(69, 208, 223, 0.5);
+    border:5px #EDC9EF solid;
+    padding: 10px 20px;
+    width: 97%;
+    height: 50px;
+}
+
+main{
+    border:10px #EDC9EF solid;
+}
+
+footer{
+
+    background-color:#3C333C;
+    border:10px #EDC9EF solid;
+    padding: 2px 30px;
+    margin: 0px 0px;
+}
+
+h1{
+    position: absolute;
+    left: 120px;
+    top:0;
+    line-height: 50px;
+}
+
+header ul{
+    position: absolute;
+    right:5vw;
+    top: 0;
+    line-height: 70px;
+}
+
+header ul li{
+    display: inline;
+    margin-right: 4vw;
+    border: 2px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header a{
+    color: #db921e;
+    text-decoration: none;
+    transition: all 500ms linear;
+}
+
+
+header a:hover{
+    font-weight: bold;
+    font-size:1.3em;
+    color: #FFB255;
+    text-decoration: underline;
+    transform: scale(1.2);
+	transition: all 200ms linear;
+}
+
+
+.kon{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/kon.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pzw{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/平泽唯.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dxj{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/琴吹䌷.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lvdui{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/田井中律.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mio{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/秋山澪.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.azi{
+    background-color: aliceblue;
+    height:95vh;
+    background-image: url(images/中野梓.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.kon h2{
+    font-size: 79px;
+    font-family:monospace, sans-serif;;
+    color: antiquewhite;
+    animation: content-slide-in 5s steps(1000) forwards;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes content-slide-in {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 48ch;
+    }
+  }
+
+  footer a{
+    border: 1px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  .right-align {
+    position: absolute;
+    left: 800px;
+    top: 450px;
+    line-height: 50px;
+    }
+
+.plot2 {
+    height: 470px;
+}
+.plot4 {
+    height: 530px;
+}
+
+.plot1 img {
+    width: 50%;
+ }
+
+ .plot2 img {
+    width: 50%;
+    display: inline;
+    float: right;
+ }
+ .plot3 img {
+    width: 50%;
+ }
+
+ .plot4 img {
+    width: 50%;
+    display: inline;
+    float: right;
+ }
+
+ .plot {
+    background-color: antiquewhite;
+    height: 220vh;
+ }
+ 
+ .plot1 p {
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot1 h2 {
+    position: absolute;
+    left: 1000px;
+    top: 210px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot2 p {
+    position: absolute;
+    left: 200px;
+    top: 800px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot2 h2 {
+    position: absolute;
+    left:200px;
+    top: 750px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot2 ul {
+    position: absolute;
+    left:200px;
+    top: 900px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot3 p {
+    position: absolute;
+    left: 1000px;
+    top: 1300px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot3 h2 {
+    position: absolute;
+    left:1000px;
+    top: 1250px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot3 ul {
+    position: absolute;
+    left:1000px;
+    top: 1400px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+
+ .plot4 p {
+    position: absolute;
+    left: 200px;
+    top: 1750px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot4 h2 {
+    position: absolute;
+    left:200px;
+    top: 1700px;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+ }
+ .plot5 {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgba(69, 208, 223, 0.5);
+ }
+ .players {
+    background-color: antiquewhite;
+ }
