@@ -2,7 +2,7 @@ header{
     background-color:rgba(69, 208, 223, 0.5);
     border:5px #EDC9EF solid;
     padding: 10px 20px;
-    height: 50px;
+    height: 60px;
 }
 
 main{
@@ -13,6 +13,7 @@ footer{
 
     background-color:#3C333C;
     border:10px #EDC9EF solid;
+    height: 60px;
     padding: 2px 30px;
     margin: 0px 0px;
 }
