@@ -10,10 +10,8 @@ main{
 }
 
 footer{
-
-    background-color:#3C333C;
+    background-color:#615861;
     border:10px #EDC9EF solid;
-    height: 60px;
     padding: 2px 30px;
     margin: 0px 0px;
 }
@@ -144,15 +142,33 @@ header a:hover{
     }
   }
 
-  footer a{
-    border: 1px solid #ACACAC;
+  .back{
+    border: 1px solid #b1a1a1;
     padding: 10px 20px;
-    border-radius: 10px;
+    margin: 20px,20px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+  }
+  .copyright{
+    padding: 10px 20px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(57, 55, 55);
+    text-decoration: none;
+  }
+  footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 231, 231);
+    text-decoration: none;
+    font-size: 20px;
   }
 
   .right-align {
