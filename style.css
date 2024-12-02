@@ -2,7 +2,6 @@ header{
     background-color:rgba(69, 208, 223, 0.5);
     border:5px #EDC9EF solid;
     padding: 10px 20px;
-    width: 97%;
     height: 50px;
 }
 
@@ -20,8 +19,8 @@ footer{
 
 h1{
     position: absolute;
-    left: 120px;
-    top:0;
+    left: 50px;
+    top:0px;
     line-height: 50px;
 }
 
